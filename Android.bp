@@ -10,19 +10,19 @@ soong_namespace {
 dex_import {
 	name: "mediatek-common",
 	owner: "samsung",
-	jars: ["proprietary/system/framework/mediatek-common.jar"],
+	jars: ["proprietary/framework/mediatek-common.jar"],
 }
 
 dex_import {
 	name: "mediatek-framework",
 	owner: "samsung",
-	jars: ["proprietary/system/framework/mediatek-framework.jar"],
+	jars: ["proprietary/framework/mediatek-framework.jar"],
 }
 
 dex_import {
 	name: "mediatek-ims-base",
 	owner: "samsung",
-	jars: ["proprietary/system/framework/mediatek-ims-base.jar"],
+	jars: ["proprietary/framework/mediatek-ims-base.jar"],
 }
 
 
