@@ -1,4 +1,4 @@
-on init
+on property:sys.boot_completed=1
     # Create the mountpoint for mnt/vendor partitions
     mkdir /sys/class/sec 0771 root root
     restorecon_recursive /sys/class/sec/tsp
